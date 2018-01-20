@@ -161,7 +161,7 @@ notify:
     corsPolicy: allow_all
 
 # expose flask microserivce at a subdomain
-api:
+hello:
   /:
     upstreamService:
       name: app
