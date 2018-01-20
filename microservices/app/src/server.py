@@ -10,4 +10,4 @@ def home():
 
 @app.route("/json")
 def json_message():
-    return jsonify(message="Hello")
+    return jsonify(message="Hello json")
