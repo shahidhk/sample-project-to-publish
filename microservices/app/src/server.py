@@ -4,7 +4,7 @@ from flask import jsonify
 
 @app.route("/")
 def home():
-    return "Hasura Hello World edited"
+    return "Hasura Hello World edited again and again"
 
 # Uncomment to add a new URL at /new
 
